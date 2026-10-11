@@ -150,7 +150,7 @@ else{
         <div className="lg:w-1/3">
           <div className=" shadow-md bg-amber-50 rounded-lg p-4">
             <h2 className="text-center text-xl font-bold mb-4">
-              Ajouter Catégorie
+              Ajouter Membre
             </h2>
             <form action="" method="post" onSubmit={handleSubmit}>
               <div className="m-3">

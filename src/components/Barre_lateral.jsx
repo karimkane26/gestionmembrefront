@@ -8,7 +8,6 @@ const Barre_lateral = () => {
         {id:2, name:'Membres', path:'/admin-dashboard/membre',icon: <FaUsers />,isParent: false},
         {id:3, name:'Cotisations',path:'/admin-dashboard/cotisation',icon: <CiMoneyCheck1 />,isParent: false},
         {id:4,name:'Profile',path:'/admin-dashboard/profile',icon: <FaCog />,isParent: false},
-        {id:5,name:'Cotisation',path:'/admin-dashboard/cotisation',icon: <CiMoneyCheck1 />,isParent: false},
         {id:6, name:'Logout',path:'/admin-dashboard/logout',icon: <CiLogout />,isParent: false},
     ]
     const [menuLinks,SetMenuLinks] = useState(menuItems)
@@ -34,7 +33,6 @@ const Barre_lateral = () => {
                         </NavLink>
                     </li>
                     ))}
-                    
                 </ul>
             </div>
         </div>
